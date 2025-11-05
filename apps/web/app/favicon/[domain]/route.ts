@@ -1,5 +1,6 @@
 export const dynamic = 'force-static';
-export const revalidate = 60 * 60 * 24; // 可选：设置重验证时间，尽管静态导出后通常无关紧要
+export const revalidate = 86400;
+
 
 import { NextRequest } from 'next/server';
 import { getFavicons, proxyFavicon } from '@/lib/server';
